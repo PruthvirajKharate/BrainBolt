@@ -1,0 +1,81 @@
+/* Footer Styling */
+.footer {
+  background: #222;
+  color: #bbb;
+  font-size: 16px;
+  padding: 40px 0;
+}
+
+/* Footer Titles */
+.footer-title {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Footer Links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  padding: 5px 0;
+}
+
+.footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #28a745; /* Green hover effect */
+  text-decoration: underline;
+}
+
+.footer-links i {
+  margin-right: 8px;
+  color: #28a745;
+}
+
+/* Contact Info */
+.footer-contact {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-contact li {
+  padding: 5px 0;
+}
+
+.footer-contact i {
+  color: #28a745;
+  margin-right: 8px;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #bbb;
+  font-size: 1.5rem;
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #28a745;
+  transform: scale(1.2);
+}
+
+/* Brand Name */
+.brand-name {
+  color: #28a745;
+  font-weight: bold;
+}

@@ -1,0 +1,73 @@
+/* Full-Screen Navbar */
+.custom-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #f8f9fa;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure page content doesn't overlap navbar */
+body {
+  
+}
+
+/* Logo Styling */
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+/* Navbar Items */
+.navbar-nav {
+  gap: 20px;
+}
+
+/* Navbar Links */
+.nav-hover {
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-hover:hover {
+  color: red !important;
+}
+
+/* Navbar Buttons */
+.navbar-btn {
+  padding: 6px 14px;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Mobile Responsive Navbar */
+@media (min-width: 991px) {
+  .custom-navbar {
+    /* margin-left:100px; */
+    padding: 0.5rem;
+  }
+
+  .navbar-collapse {
+    margin-left:100px;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-btn {
+    /* display: none; */
+    width: 90%;
+    margin-left:100px;
+    /* display: block; */
+    margin: 5px auto;
+  }
+}

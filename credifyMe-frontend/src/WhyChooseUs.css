@@ -1,0 +1,123 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .why-choose-us {
+    /* width: w; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+  }
+  
+  .left-section {
+    background-color: #203730;
+    color: white;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 400px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .left-section:hover {
+    background-color: #2a4a3e; /* Slightly lighter green */
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .left-section h2,
+  .left-section p {
+    transition: transform 0.3s ease;
+  }
+  
+  .left-section:hover h2 {
+    transform: scale(1.05);
+  }
+  
+  .left-section:hover p {
+    transform: scale(1.02);
+  }
+  
+  .right-section {
+    background-color: white;
+    padding: 60px;
+  }
+  
+  .info-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    border: 5px solid white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-shrink: 0;
+  }
+  
+  /* Circle Colors */
+  .circle-1 {
+    background-color: #203730;
+  }
+  
+  .circle-2 {
+    background-color: #556a70;
+  }
+  
+  .circle-3 {
+    background-color: #c1a236;
+  }
+  
+  /* Info Text */
+  .info-text {
+    flex-grow: 1;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .info-text h5 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  .info-text p {
+    font-size: 1rem;
+    color: #666;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover Effects */
+  .circle:hover {
+    transform: scale(1.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .info-text:hover {
+    transform: translateX(5px);
+  }
+  
+  .info-text:hover h5 {
+    color: #203730;
+  }
+  
+  .info-text:hover p {
+    color: #444;
+  }
+  

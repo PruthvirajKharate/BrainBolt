@@ -1,0 +1,38 @@
+/* Make images fit better */
+.carousel-image {
+    width: 100%;
+    height: 83vh; /* Adjust height to look good on all screens */
+    object-fit: cover; /* Ensures image scales correctly without distortion */
+  }
+  
+  /* Improve caption visibility */
+  .carousel-caption {
+    background: rgba(12, 3, 3, 0.5); /* Semi-transparent black background */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10%;
+  }
+  
+  /* Adjust text color */
+  .carousel-caption h5 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    color: #ddd;
+    font-size: 1.2rem;
+  }
+  
+  /* Improve button visibility */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: brightness(0.8);
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    filter: brightness(1);
+  }
+  

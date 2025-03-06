@@ -1,0 +1,56 @@
+/* Sidebar Styling */
+.sidebar1 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+.sidebar1 a {
+  text-decoration: none;
+  color: white;
+  padding: 12px 20px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar1 a:hover,
+.sidebar1 a.active {
+  background-color: #5aeff2;
+  color: black;
+}
+
+/* Content Styling */
+.content1 {
+  margin-left: 250px;
+  padding: 20px;
+  width: calc(100% - 250px);
+  height: 100vh; /* Full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  align-items: flex-start;
+  position: relative;
+}
+
+.content1 h2 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
